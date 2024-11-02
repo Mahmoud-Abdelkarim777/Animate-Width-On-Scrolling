@@ -3,11 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 section{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* overflow: hidden; */
 }
 .one{
     background: #aaa;
@@ -21,6 +23,9 @@ section{
 .four{
     background: #ddd;
 }
+.skills{
+    width: 300px;
+}
 .progress{
     position: relative;
     width: 500px;
@@ -28,7 +33,12 @@ section{
     background-color: #fff;
     margin: 10px;
 }
-
+@media (max-width: 767px) {
+    .progress{
+        width: 300px;
+        margin: 10px 0;
+    }
+}
 .progress span{
     position: absolute;
     top: 0;
