@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background: #aaa;
+}
+.two{
+    background: #bbb;
+}
+.three{
+    background: #ccc;
+}
+.four{
+    background: #ddd;
+}
+.progress{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(92, 154, 205);
+    transition: all 0.8s linear;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
